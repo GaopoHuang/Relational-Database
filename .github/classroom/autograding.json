@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Insert test",
+      "setup": "make",
+      "run": "./hw9 Insert",
+      "input": "",
+      "output": "Insert test PASS",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 3
+    },
+    {
+      "name": "Select test",
+      "setup": "make",
+      "run": "./hw9 Select",
+      "input": "",
+      "output": "Select test PASS",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 3
+    },
+    {
+      "name": "Update test",
+      "setup": "make",
+      "run": "./hw9 Update",
+      "input": "",
+      "output": "Update test PASS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Delete test",
+      "setup": "make",
+      "run": "./hw9 Delete",
+      "input": "",
+      "output": "Delete test PASS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Drop test",
+      "setup": "make",
+      "run": "./hw9 Drop",
+      "input": "",
+      "output": "Drop test PASS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Index test",
+      "setup": "make",
+      "run": "./hw9 Index",
+      "input": "",
+      "output": "Index test PASS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Join test",
+      "setup": "make",
+      "run": "./hw9 Join",
+      "input": "",
+      "output": "Join test PASS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 75
+    }
+  ]
+}
