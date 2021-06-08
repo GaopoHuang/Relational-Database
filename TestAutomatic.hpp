@@ -13,7 +13,7 @@
 #include <sstream>
 #include "Errors.hpp"
 #include "Faked.hpp"
-#include <sstream>
+#include <fstream>
 #include <algorithm>
 #include <map>
 #include <vector>
@@ -329,19 +329,19 @@ namespace ECE141 {
     void insertBooks(std::ostream &anOut,
                      size_t anOffset, size_t aLimit) {
       static const char* kBooks[]={
-        " (\"The Green Mile\",4)",
-        " (\"The Stand\",4)",
-        " (\"The Misery\",4)",
+        " (\"TheGreenMile\",4)",
+        " (\"TheStand\",4)",
+        " (\"TheMisery\",4)",
         " (\"11/22/63\",4)",
-        " (\"The Institute\",4)",
-        " (\"The Thief of Time\",1)",
-        " (\"The Wintersmith\",1)",
-        " (\"The Monster Regiment\",1)",
+        " (\"TheInstitute\",4)",
+        " (\"TheThiefofTime\",1)",
+        " (\"TheWintersmith\",1)",
+        " (\"TheMonsterRegiment\",1)",
         " (\"Thud\",1)",
-        " (\"The Time Police\",3)",
-        " (\"The Mechanical\",2)",
-        " (\"The Liberation\",2)",
-        " (\"The Rising\",2)",
+        " (\"TheTimePolice\",3)",
+        " (\"TheMechanical\",2)",
+        " (\"TheLiberation\",2)",
+        " (\"TheRising\",2)",
         " (\"Exhalation\",5)",
       };
       
